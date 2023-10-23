@@ -131,7 +131,7 @@ export class PrismaCrudService {
 
         return {
             data: matches,
-            totalRecords: count,
+            total: count,
             pageCount,
             page,
             pageSize,
